@@ -76,4 +76,15 @@ text-align:right;
     border: solid black;
     margin-top: 50px;
 }
+.box2{
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
+    display: inline-block;
+    border: solid black;
+    float: left;
+    margin-top: 25px;
+
+
+}
 
