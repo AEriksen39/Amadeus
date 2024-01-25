@@ -1,25 +1,79 @@
-body {
-	font-family: Arial, sans-serif;
-	text-align: center;
+body{
+    width: 80%;  	
+    height: auto;
+    margin-left: 150px;
+    border:  solid #060000; 
+   
+}
+h1{
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+}
+h2{
+    font-size: larger;
+
 }
 
-#balance {
-	font-size: 2em;
-	margin-bottom: 1em;
+p{
+    font-size: larger;
+    
+}
+header{
+width: 100%;
+height: 80px; 
+border-bottom: solid #060000;
+text-align: center;
+background-color: blue;
+
+
+}
+nav{
+width: 100%;
+height: 70px;
+border-bottom: solid black;
+
+
+}
+main{
+width: 100%;
+height: 500px;
+border: solid black;
+
 }
 
-#bet-amount {
-	font-size: 1.5em;
-	margin-bottom: 1em;
+aside{
+width: 200px;
+height: 500px ;
+float: left;
+border: solid black;
+margin-top: 0px;
+
+
 }
 
-button {
-	font-size: 1.5em;
-	padding: 0.5em 1em;
-	margin: 0 0.5em;
+footer{ 
+width: 100%;
+height: 80px;
+border: solid black;
+text-align:right;
+
+}
+.box{
+    width: 150px;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid black;
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace
 }
 
-#results {
-	margin-top: 2em;
-	font-size: 1.2em;
+.box1{
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+    display: inline-block;
+    border: solid black;
+    margin-top: 50px;
 }
+
